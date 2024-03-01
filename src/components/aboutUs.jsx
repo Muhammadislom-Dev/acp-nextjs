@@ -2,10 +2,10 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <section className=' py-4 px-12'>
+    <section className='about-section py-4 px-12'>
       <h2 className='text-center text-aboutTitle font-semibold text-2xl'>BIZ HAQIMIZDA</h2>
       <h4 className='text-center pt-2 pb-6'>ALYUMIN KOMPOZIT PANELLARDAGI ENG ISHONCHLI NOM</h4>
-      <div className='flex items-center gap-5 flex-wrap lg:flex-nowrap '>
+      <div className='flex items-center gap-5 flex-wrap-reverse lg:flex-nowrap'>
         <div>
           <div className='flex flex-col gap-3 pb-4'>
             <p className='text-stone-500'>ALSTAR - 'GOLDEN HAPPINESS' MChJga tegishli PE, FR-B1, FR-A2 turdagi alyumin kompozit panellar (ACP) brendi. 2013 yildan beri kompaniya yiliga 2 million m2 ishlab chiqarish quvvatiga ega Markaziy Osiyodagi eng yirik ACP brendiga aylandi. Kompaniya tarkibiga “ALSTAR, DIBOND, UZBOND, ALSTAR7” kabi avtomat uzatmalar qutisi (ACP) mahsulotlari kiradi.
