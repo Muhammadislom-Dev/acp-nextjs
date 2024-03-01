@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import Footer from "@/components/Footer";
 import Rating from "@/components/Rating";
 // import { Inter } from "next/font/google";
 import { Unbounded } from "next/font/google";
@@ -9,7 +10,8 @@ export default function Home() {
   return (
     <main className={`${unbounded.className}`}>
       <AboutUs />
-      <Rating/>
+      <Rating />
+      <Footer />
     </main>
   );
 }
