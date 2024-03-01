@@ -11,19 +11,19 @@ function Navbar() {
         <Image className="w-[100px]" src={AcpIcon} alt="Acp" />
         <div className="flex gap-4">
           <Language />
-          <Link className="text-white text-base font-medium" href="#">
+          <Link className="text-white text-sm font-medium" href="#">
             ГЛАВНАЯ
           </Link>
-          <Link className="text-white text-base font-medium" href="#">
+          <Link className="text-white text-sm font-medium" href="#">
             ПРОДУКЦИИ
           </Link>
-          <Link className="text-white text-base font-medium" href="#">
+          <Link className="text-white text-sm font-medium" href="#">
             О КОМПАНИИ
           </Link>
-          <Link className="text-white text-base font-medium" href="#">
+          <Link className="text-white text-sm font-medium" href="#">
             УСЛУГИ
           </Link>
-          <Link className="text-white text-base font-medium" href="#">
+          <Link className="text-white text-sm font-medium" href="#">
             СВЯЗАТЬСЯ С НАМИ
           </Link>
         </div>
