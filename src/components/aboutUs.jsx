@@ -1,4 +1,7 @@
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import ProductOne from "@/assets/product1.png";
 
 const AboutUs = () => {
   return (
@@ -28,7 +31,7 @@ const AboutUs = () => {
 
 
     </section>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;

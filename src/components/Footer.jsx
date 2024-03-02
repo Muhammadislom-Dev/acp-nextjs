@@ -1,48 +1,62 @@
-import React from 'react'
-import Logo from '../../public/logo.jpg'
-import InstargramSvg from '@/icons/InstargramSvg'
-import TelegramSvg from '@/icons/TelegramSvg'
-import YouTubeSvg from '@/icons/YouTubeSvg'
-import FacebookSvg from '@/icons/FacebookSvg'
-import Image from 'next/image'
+import React from "react";
+import Logo from "@/assets/acp.png";
+import InstargramSvg from "@/icons/InstargramSvg";
+import TelegramSvg from "@/icons/TelegramSvg";
+import YouTubeSvg from "@/icons/YouTubeSvg";
+import FacebookSvg from "@/icons/FacebookSvg";
+import Image from "next/image";
+import Link from "next/link";
 const Footer = () => {
-    return (
-        <footer className='footer-section px-10 py-8 flex justify-center'>
-            <div className='container'>
-                <div className='footer__internal-div rounded-3xl flex gap-6 xl:gap-0 justify-between py-7 px-10 flex-wrap xl:flex-nowrap'>
-                    <ul className='text-white w-full md:w-4/12'>
-                        <li className='flex items-center gap-2 justify-center md:justify-normal'>
-                            <Image className='rounded-md' width={100} src={Logo} alt='logo image' />
-                            {/* <span className='text-base xl:text-lg font-medium'>KOMPANYAMIZ HAQIDA</span> */}
-                        </li>
-                        <li className='text-xs py-4 text-center md:text-start'>ALSTAR - 'GOLDEN HAPPINESS' MChJga tegishli, <br />PE, FR-B1, FR-A2 turidagi alyumin kompozit<br />panellar (AKP) brendi</li>
-                        <li className='flex items-center gap-4 justify-center md:justify-start'>
-                            <InstargramSvg />
-                            <TelegramSvg />
-                            <FacebookSvg />
-                            <YouTubeSvg />
-                        </li>
-                    </ul>
-                    <ul className='text-white  w-full md:w-4/12'>
-                        <li className='text-base xl:text-lg font-medium pb-4 text-center md:text-start'>Tezkor havolalar</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 text-center md:text-start'>BIZ HAQIMIZDA</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 py-2 text-center md:text-start'>MAHSULOTLAR</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 text-center md:text-start'>YANGILIKLAR</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 py-2 text-center md:text-start'>LOYIHALAR</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 text-center md:text-start'>ALOQA</li>
-                    </ul>
-                    <ul className='text-white w-full md:w-4/12 '>
-                        <li className='text-base xl:text-lg font-medium pb-4 text-center md:text-start'>ALOQA</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 text-center md:text-start'>«GOLDEN HAPPINESS» Узбекистан, г. Ташкент</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 py-2 text-center md:text-start'>info@alstar.uz</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 text-center md:text-start'>+998 94 669 00 06</li>
-                        <li className='text-sm hover:text-red-800 hover:cursor-pointer hover:duration-150 pt-2 text-center md:text-start'>+998 77 000 87 00</li>
-                    </ul>
-                </div>
-            </div>
+  return (
+    <footer className="footer-section px-10 py-8">
+      <div className="container">
+        <div className="footer__internal-div rounded-lg flex justify-between py-7 px-10">
+          <ul className="text-white flex flex-col gap-4">
+            <li>KOMPANYAMIZ HAQIDA</li>
+            <li>
+              <Image src={Logo} className="footer-logo" alt="Logo image" />
+            </li>
+            <li className="flex mt-8 gap-4 items-center">
+              <Link href={"#"}>
+                <InstargramSvg />
+              </Link>
+              <Link href={"#"}>
+                <TelegramSvg />
+              </Link>
+            </li>
+          </ul>
+          <ul className="text-white flex flex-col gap-4">
+            <li>Tezkor havolalar</li>
+            <li>
+              <Link href={"#"}>BIZ HAQIMIZDA</Link>
+            </li>
+            <li>
+              <Link href={"#"}>YANGILIKLAR</Link>
+            </li>
+            <li>
+              <Link href={"#"}>LOYIHALAR</Link>
+            </li>
+            <li>
+              <Link href={"#"}>ALOQA</Link>
+            </li>
+          </ul>
+          <ul className="text-white flex flex-col gap-4">
+            <li>ALOQA</li>
+            <li>«GOLDEN HAPPINESS»</li>
+            <li>
+              <Link href={"#"}>info@alstar.uz</Link>
+            </li>
+            <li>
+              <Link href="tel:+998770074777">+998 77 007 47 77</Link>
+            </li>
+            <li>
+              <Link href="tel:+998990000031">+998 99 000 00 31</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-        </footer>
-    )
-}
-
-export default Footer
+export default Footer;
