@@ -38,6 +38,22 @@ a {
   }
 }
 
+
+.rating-section {
+  background-color: #E2E8F0;
+}
+
+.rating-blog {
+  box-shadow: rgba(144, 173, 248, 0.25) 0px 9px 18px 0px
+}
+
+.footer-section {
+  background-color: #E2E8F0;
+}
+.footer__internal-div{
+  background-color: rgba(0, 0, 0, 0.80);
+}
+=======
 .container {
   max-width: 1240px;
   width: 100%;
@@ -76,3 +92,4 @@ a {
   max-height: 350px;
   object-fit: cover;
 }
+
