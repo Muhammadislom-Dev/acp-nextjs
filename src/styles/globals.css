@@ -51,6 +51,11 @@ a {
 .form-input::placeholder {
   color: #fff;
 }
+.partner-icon {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
 
 .footer__internal-div {
   background-color: rgba(0, 0, 0, 0.8);
