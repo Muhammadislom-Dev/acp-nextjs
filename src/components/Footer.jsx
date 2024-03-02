@@ -1,42 +1,62 @@
-import React from 'react'
-import Logo from '../../logo.jpg'
-import InstargramSvg from '@/icons/InstargramSvg'
-import TelegramSvg from '@/icons/TelegramSvg'
-import YouTubeSvg from '@/icons/YouTubeSvg'
-import FacebookSvg from '@/icons/FacebookSvg'
+import React from "react";
+import Logo from "@/assets/acp.png";
+import InstargramSvg from "@/icons/InstargramSvg";
+import TelegramSvg from "@/icons/TelegramSvg";
+import YouTubeSvg from "@/icons/YouTubeSvg";
+import FacebookSvg from "@/icons/FacebookSvg";
+import Image from "next/image";
+import Link from "next/link";
 const Footer = () => {
-    return (
-        <footer className='footer-section px-10 py-8'>
-            <div className='footer__internal-div rounded-lg flex justify-between py-7 px-10'>
-                <ul className='text-white'>
-                    <li classame="">KOMPANYAMIZ HAQIDA</li>
-                    <li><img src='../../logo.jpg' alt='Logo image' /></li>
-                    <li>ALSTAR - 'GOLDEN HAPPINESS' MChJga tegishli, <br />PE, FR-B1, FR-A2 turidagi alyumin kompozit<br />panellar (AKP) brendi</li>
-                    <li className='flex items-center'>
-                        <InstargramSvg />
-                        <TelegramSvg />
-                        <FacebookSvg />
-                        <YouTubeSvg />
-                    </li>
-                </ul>
-                <ul className='text-white'>
-                    <li>Tezkor havolalar</li>
-                    <li>BIZ HAQIMIZDA</li>
-                    <li>MAHSULOTLAR</li>
-                    <li>YANGILIKLAR</li>
-                    <li>LOYIHALAR</li>
-                    <li>ALOQA</li>
-                </ul>
-                <ul className='text-white'>
-                    <li>ALOQA</li>
-                    <li>«GOLDEN HAPPINESS» Узбекистан, г. Ташкент</li>
-                    <li>info@alstar.uz</li>
-                    <li>+998 94 669 00 06</li>
-                    <li>+998 77 000 87 00</li>
-                </ul>
-            </div>
-        </footer>
-    )
-}
+  return (
+    <footer className="footer-section px-10 py-8">
+      <div className="container">
+        <div className="footer__internal-div rounded-lg flex justify-between py-7 px-10">
+          <ul className="text-white flex flex-col gap-4">
+            <li>KOMPANYAMIZ HAQIDA</li>
+            <li>
+              <Image src={Logo} className="footer-logo" alt="Logo image" />
+            </li>
+            <li className="flex mt-8 gap-4 items-center">
+              <Link href={"#"}>
+                <InstargramSvg />
+              </Link>
+              <Link href={"#"}>
+                <TelegramSvg />
+              </Link>
+            </li>
+          </ul>
+          <ul className="text-white flex flex-col gap-4">
+            <li>Tezkor havolalar</li>
+            <li>
+              <Link href={"#"}>BIZ HAQIMIZDA</Link>
+            </li>
+            <li>
+              <Link href={"#"}>YANGILIKLAR</Link>
+            </li>
+            <li>
+              <Link href={"#"}>LOYIHALAR</Link>
+            </li>
+            <li>
+              <Link href={"#"}>ALOQA</Link>
+            </li>
+          </ul>
+          <ul className="text-white flex flex-col gap-4">
+            <li>ALOQA</li>
+            <li>«GOLDEN HAPPINESS»</li>
+            <li>
+              <Link href={"#"}>info@alstar.uz</Link>
+            </li>
+            <li>
+              <Link href="tel:+998770074777">+998 77 007 47 77</Link>
+            </li>
+            <li>
+              <Link href="tel:+998990000031">+998 99 000 00 31</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
