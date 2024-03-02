@@ -42,6 +42,16 @@ a {
   box-shadow: rgba(144, 173, 248, 0.25) 0px 9px 18px 0px;
 }
 
+.form-input {
+  background-color: #333333;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.form-input::placeholder {
+  color: #fff;
+}
+
 .footer__internal-div {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -50,6 +60,11 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.contact-image {
+  position: relative;
+  right: 50px;
 }
 
 .header-img {
@@ -93,4 +108,9 @@ a {
   max-width: 650px;
   height: 350px;
   object-fit: cover;
+}
+
+.contact {
+  background-color: #202020;
+  border-radius: 30px;
 }

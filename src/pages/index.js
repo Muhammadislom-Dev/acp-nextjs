@@ -7,6 +7,7 @@ import Rating from "@/components/Rating";
 import ReplainWidget from "./replain";
 
 import { Unbounded } from "next/font/google";
+import Contact from "@/components/Contact";
 
 const unbounded = Unbounded({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutUs />
       <Product />
       <Rating />
+      <Contact />
       <Footer />
       <ReplainWidget />
     </main>
