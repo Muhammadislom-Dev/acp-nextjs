@@ -14,13 +14,16 @@ module.exports = {
       },
       backgroundColor:{
         ratingBg:"rgb(255, 255, 255);",
+        learnMoreBtn:"rgba(130, 158, 228, 0.25)",
+        learnMoreBtnHover:"rgba(113, 150, 241, 0.25)"
       },
       colors: {
         aboutTitle: "rgb(46, 58, 107)",
         aboutBtnColor: "#c3242a",
         ratingNumColor:"#1A202C",
         ratingTitleColor:"rgb(42, 52, 55)",
-        ratingShadow:"rgba(144, 173, 248, 0.25)"
+        ratingShadow:"rgba(144, 173, 248, 0.25)",
+        newsText:"rgb(46, 58, 107)"
       }
     },
   },

@@ -45,6 +45,7 @@ a {
 .footer__internal-div {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .container {
   max-width: 1240px;
   width: 100%;
@@ -93,4 +94,19 @@ a {
   max-width: 650px;
   height: 350px;
   object-fit: cover;
+}
+
+.news-card {
+  box-shadow: rgba(144, 173, 248, 0.25) 0px 9px 18px 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.learnMoreBtn {
+  background-color: rgba(113, 150, 241, 0.25);
+}
+
+.card-image {
+  height: 213.38px;
+  width: 100%;
 }
