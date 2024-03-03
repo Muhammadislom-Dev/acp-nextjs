@@ -42,6 +42,10 @@ p {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .rating-blog {
   box-shadow: rgba(144, 173, 248, 0.25) 0px 9px 18px 0px;
 }

@@ -6,13 +6,15 @@ import YouTubeSvg from "@/icons/YouTubeSvg";
 import FacebookSvg from "@/icons/FacebookSvg";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="footer-section px-10 py-8">
       <div className="container">
         <div className="footer__internal-div rounded-lg flex justify-between py-7 px-10">
           <ul className="text-white flex flex-col gap-4">
-            <li>KOMPANYAMIZ HAQIDA</li>
+            <li>{t("hello2")}</li>
             <li>
               <Image src={Logo} className="footer-logo" alt="Logo image" />
             </li>
@@ -26,22 +28,22 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="text-white flex flex-col gap-4">
-            <li>Tezkor havolalar</li>
+            <li>{t("hello30")}</li>
             <li>
-              <Link href={"#"}>BIZ HAQIMIZDA</Link>
+              <Link href={"#"}>{t("hello2")}</Link>
             </li>
             <li>
-              <Link href={"#"}>YANGILIKLAR</Link>
+              <Link href={"#"}>{t("hello4")}</Link>
             </li>
             <li>
-              <Link href={"#"}>LOYIHALAR</Link>
+              <Link href={"#"}>{t("hello5")}</Link>
             </li>
             <li>
-              <Link href={"#"}>ALOQA</Link>
+              <Link href={"#"}>{t("hello6")}</Link>
             </li>
           </ul>
           <ul className="text-white flex flex-col gap-4">
-            <li>ALOQA</li>
+            <li>{t("hello6")}</li>
             <li>«GOLDEN HAPPINESS»</li>
             <li>
               <Link href={"#"}>info@alstar.uz</Link>

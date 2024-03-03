@@ -5,13 +5,13 @@ import ProductThree from "@/assets/product3.JPG";
 import ProductFour from "@/assets/product4.JPG";
 import ProductFive from "@/assets/product5.png";
 import Image from "next/image";
-// import VideoMp4 from "@/assets/video.mp4";
 import { Fade } from "react-reveal";
+
 
 function Product() {
   return (
     <>
-      <div className="py-8">
+      <div id="product" className="py-8">
         <div className="container">
           <h2 className="text-3xl font-medium py-6">ПРОДУКЦИИ</h2>
           <div className="flex flex-wrap gap-8">
