@@ -22,8 +22,8 @@ export default function Home() {
       <AboutUs />
       <Product />
       <Rating />
-      <News />
       <Partner />
+      <News />
       <Contact />
       <Footer />
       <ReplainWidget />
