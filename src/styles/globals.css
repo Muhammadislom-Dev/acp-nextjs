@@ -60,6 +60,7 @@ a {
 .footer__internal-div {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .container {
   max-width: 1240px;
   width: 100%;
@@ -115,6 +116,39 @@ a {
   object-fit: cover;
 }
 
+.news-card {
+  box-shadow: rgba(144, 173, 248, 0.25) 0px 9px 18px 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.learnMoreBtn {
+  background-color: rgba(113, 150, 241, 0.25);
+}
+
+.card-image {
+  height: 213.38px;
+  width: 100%;
+}
+
+.company-ceo {
+  background-color: #EEF5FE;
+}
+
+.company-strategic {
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('http://alstar.uz/assets/company-968dd3a3.jpg');
+  background-repeat: no-repeat;
+}
+
+.company-vision {
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('http://alstar.uz/assets/dibond1-4a53fefb.jpg');
+}
 .contact {
   background-color: #202020;
   border-radius: 30px;
