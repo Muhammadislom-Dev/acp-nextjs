@@ -59,6 +59,10 @@ html {
 .form-input::placeholder {
   color: #fff;
 }
+
+.language {
+  z-index: 9999;
+}
 .partner-icon {
   object-fit: contain;
   width: 100%;
