@@ -1,9 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import ProductOne from "@/assets/product1.png";
+import { useRouter } from "next/router";
 
 const AboutUs = () => {
+  const router = useRouter()
+  const handleClick = () => {
+    router.push('/company')
+  }
   return (
     <section className='about-section py-4 px-12 flex justify-center'>
       <div className='container'>
@@ -21,16 +23,16 @@ const AboutUs = () => {
                 Korxonada alyumin kompozit panellar ishlab chiqarishdan tashqari, zamonaviy binolarning tashqi va interyeri uchun zamonaviy innovatsion dizayn yechimlarini namoyish etish uchun dizayn ko‘rgazma zallari ham mavjud.
               </p>
             </div>
-            <button className='bg-aboutBtnColor text-white px-4 py-2 rounded-lg'>Batafsil ma'lumot</button>
-          </div>
-          <div >
-            <img className='bg-white' src='http://alstar.uz/assets/company-cf3f4262.png' alt='alstar_company ' />
-          </div>
-        </div>
+            <button onClick={handleClick} className='bg-aboutBtnColor text-white px-4 py-2 rounded-lg'>Batafsil ma'lumot</button>
       </div>
+      <div >
+        <img className='bg-white' src='http://alstar.uz/assets/company-cf3f4262.png' alt='alstar_company ' />
+      </div>
+    </div>
+      </div >
 
 
-    </section>
+    </section >
   );
 };
 

@@ -110,3 +110,22 @@ a {
   height: 213.38px;
   width: 100%;
 }
+
+.company-ceo {
+  background-color: #EEF5FE;
+}
+
+.company-strategic {
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('http://alstar.uz/assets/company-968dd3a3.jpg');
+  background-repeat: no-repeat;
+}
+
+.company-vision {
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('http://alstar.uz/assets/dibond1-4a53fefb.jpg');
+}

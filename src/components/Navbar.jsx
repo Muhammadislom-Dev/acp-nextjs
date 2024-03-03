@@ -17,7 +17,7 @@ function Navbar() {
           <Link className="text-white text-sm font-medium" href="#">
             ПРОДУКЦИИ
           </Link>
-          <Link className="text-white text-sm font-medium" href="#">
+          <Link className="text-white text-sm font-medium" href="company">
             О КОМПАНИИ
           </Link>
           <Link className="text-white text-sm font-medium" href="#">
