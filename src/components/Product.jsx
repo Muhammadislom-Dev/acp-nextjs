@@ -7,16 +7,15 @@ import ProductFive from "@/assets/product5.png";
 import Image from "next/image";
 import { Fade } from "react-reveal";
 
-
 function Product() {
   return (
     <>
       <div id="product" className="py-8">
         <div className="container">
           <h2 className="text-3xl font-medium py-6">ПРОДУКЦИИ</h2>
-          <div className="flex flex-wrap gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Fade bottom>
-              <div className="max-w-sm">
+              <div className="">
                 <Image
                   className="object-cover product-image"
                   src={ProductTwo}
@@ -24,7 +23,7 @@ function Product() {
                 />
                 <h4 className="text-xl font-medium my-4">СВАРНАЯ СЕТКА</h4>
               </div>
-              <div className="max-w-sm">
+              <div className="">
                 <Image
                   className="object-cover product-image"
                   src={ProductFive}
@@ -32,7 +31,7 @@ function Product() {
                 />
                 <h4 className="text-xl font-medium my-4">ДОРОЖНАЯ СЕТКА</h4>
               </div>
-              <div className="max-w-sm">
+              <div className="">
                 <Image
                   className="object-cover product-image"
                   src={ProductFour}
@@ -42,7 +41,7 @@ function Product() {
               </div>
             </Fade>
             <Fade bottom>
-              <div className="max-w-sm">
+              <div className="">
                 <Image
                   className="object-cover product-image"
                   src={ProductOne}
@@ -50,7 +49,7 @@ function Product() {
                 />
                 <h4 className="text-xl font-medium my-4">Еврозабор 3-D</h4>
               </div>
-              <div className="max-w-sm">
+              <div className="">
                 <Image
                   className="object-cover product-image"
                   src={ProductThree}

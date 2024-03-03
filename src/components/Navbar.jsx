@@ -27,7 +27,7 @@ function Navbar() {
           <Link className="text-white text-sm font-medium" href="#">
           {t("hello5")}
           </Link>
-          <Link className="text-white text-sm font-medium" href="#">
+          <Link className="text-white text-sm font-medium" href="#contact">
           {t("hello6")}
           </Link>
         </div>

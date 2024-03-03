@@ -5,7 +5,7 @@ import ScrollTrigger from "react-scroll-trigger";
 const Rating = () => {
   const [count, setCount] = useState(false);
   return (
-    <section className="rating-section px-12 py-8 flex justify-center">
+    <section className="rating-section py-8">
       <div className="container">
         <div className="rating-blog bg-ratingBg px-5 sm:px-10 py-8 rounded-2xl shadow-2xl shadow-ratingShadow">
           <h3 className="text-center sm:text-start font-bold text-xl md:text-3xl pb-5 lg:pb-0">

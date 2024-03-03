@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <footer className="footer-section px-10 py-8">
+    <footer className="footer-section py-8">
       <div className="container">
         <div className="footer__internal-div rounded-lg flex justify-between py-7 px-10">
           <ul className="text-white flex flex-col gap-4">

@@ -20,7 +20,7 @@ const AboutUs = () => {
           <Fade left>
             <div>
               <div className="flex flex-col gap-3 pb-4">
-                <p className="text-stone-500 text-sm w-[500px] leading-6">
+                <p className="text-stone-500 text-sm w-full max-w-[800px] sm:w-auto leading-6">
                   ALSTAR - 'GOLDEN HAPPINESS' MChJga tegishli PE, FR-B1, FR-A2
                   turdagi alyumin kompozit panellar (ACP) brendi. 2013 yildan
                   beri kompaniya yiliga 2 million m2 ishlab chiqarish quvvatiga

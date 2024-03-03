@@ -114,10 +114,10 @@ html {
 }
 
 .product-image {
-  max-height: 350px;
+  max-height: 280px;
   height: 100%;
   width: 100%;
-  max-height: 350px;
+  max-height: 280px;
   object-fit: cover;
 }
 
@@ -168,4 +168,22 @@ html {
 .contact {
   background-color: #202020;
   border-radius: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar {
+  height: 0px;
+  width: 8px;
+  border-radius: 54px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  overflow-x: scroll;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #333 !important;
+  border-radius: 54px;
 }

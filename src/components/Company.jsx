@@ -46,9 +46,9 @@ const Company = () => {
             <div className="bg-companyStrategyBg py-1 px-2 md:py-3 md:px-4 rounded-md">
               <p className="text-white text-xs md:text-base">
                 Based on the context and mission of the company, the management
-                and staff of OOO 'GOLDEN HAPPINESS' sets the main goal in the
+                and staff of OOO GOLDEN HAPPINESS sets the main goal in the
                 field of quality - ensuring and maintaining consumer confidence
-                in OOO 'GOLDEN HAPPINESS' as a Company that comprehensively
+                in OOO GOLDEN HAPPINESS as a Company that comprehensively
                 meets the needs of consumers in the production of fire-resistant
                 aluminum composite panels. To achieve and implement this goal,
                 the company has identified the main strategic directions:
@@ -70,7 +70,7 @@ const Company = () => {
             </div>
             <div className="bg-companyStrategyBg py-1 px-2 md:py-3 md:px-4 rounded-md">
               <p className="text-white text-xs md:text-base">
-                The company OOO 'GOLDEN HAPPINESS' is one of the leading
+                The company OOO GOLDEN HAPPINESS is one of the leading
                 companies in Uzbekistan engaged in the production of
                 fire-resistant aluminum composite panels. Having highly
                 qualified specialists and modern production and technological

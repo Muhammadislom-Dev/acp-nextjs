@@ -18,8 +18,8 @@ function Partner() {
           НАШИ КЛИЕНТЫ
         </h2>
         <p className="text-sm text-center w-3/4 leading-6 m-auto mt-4">
-          Welded Mesh Grid- Yo'l setkalari va sim mix ishlab chiqarish bo'yicha
-          O'zbekistonda eng birinchilardan va liderlaridan hisoblanadi, doimiy
+          Welded Mesh Grid- Yo`l setkalari va sim mix ishlab chiqarish bo`yicha
+          O`zbekistonda eng birinchilardan va liderlaridan hisoblanadi, doimiy
           mijozlar 500 dan ziyod, bir oylik ishlab chiqarish 500/600 tonnadan
           ziyod.
         </p>
