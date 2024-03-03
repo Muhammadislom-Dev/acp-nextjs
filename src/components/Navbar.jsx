@@ -8,7 +8,9 @@ function Navbar() {
   return (
     <div className="p-4 bg-black">
       <div className="container flex items-center justify-between">
-        <Image className="w-[100px]" src={AcpIcon} alt="Acp" />
+        <Link href={"/"}>
+          <Image className="w-[100px]" src={AcpIcon} alt="Acp" />
+        </Link>
         <div className="flex gap-4">
           <Language />
           <Link className="text-white text-sm font-medium" href="#">

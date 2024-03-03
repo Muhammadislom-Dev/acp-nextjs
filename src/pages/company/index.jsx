@@ -1,17 +1,16 @@
-import Company from '@/components/Company'
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import React from 'react'
+import Company from "@/components/Company";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import React from "react";
 
 const Companyindex = () => {
   return (
     <>
-          <Navbar />
-          <Company/>
-          <Footer/>
-
+      <Navbar />
+      <Company />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Companyindex
+export default Companyindex;
