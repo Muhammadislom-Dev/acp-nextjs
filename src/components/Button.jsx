@@ -1,6 +1,7 @@
 import React from "react";
 import { toast } from "react-toastify";
-
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 function Button({ numberValue, nameValue, textValue, handleClear }) {
   let bot = {
     TOKEN: "7002617210:AAFKnKuXP6Z8rFB7FICnMJEpd-uJPBjp-aU",
@@ -31,7 +32,7 @@ function Button({ numberValue, nameValue, textValue, handleClear }) {
           toast.success("Sizning xabaringiz muvaffaqiyatli yuborildi!");
           onClose();
         },
-        (error) => {}
+        (error) => { }
       );
     }
   }

@@ -13,22 +13,22 @@ function Navbar() {
         <Link href={"/"}>
           <Image className="w-[100px]" src={AcpIcon} alt="Acp" />
         </Link>
-        <div className="flex gap-4">
+        <div className="flex gap-3 lg:gap-4 items-center hiddenMenu">
           <Language />
-          <Link className="text-white text-sm font-medium" href="#">
+          <Link className="text-white text-xs lg:text-sm font-medium" href="#">
             {t("hello1")}
           </Link>
-          <Link className="text-white text-sm font-medium" href="#product">
-          {t("hello3")}
+          <Link className="text-white text-xs lg:text-sm font-medium" href="#product">
+            {t("hello3")}
           </Link>
-          <Link className="text-white text-sm font-medium" href="/company">
-          {t("hello2")}
+          <Link className="text-white text-xs lg:text-sm font-medium" href="/company">
+            {t("hello2")}
           </Link>
-          <Link className="text-white text-sm font-medium" href="#">
-          {t("hello5")}
+          <Link className="text-white text-xs lg:text-sm font-medium" href="#">
+            {t("hello5")}
           </Link>
-          <Link className="text-white text-sm font-medium" href="#contact">
-          {t("hello6")}
+          <Link className="text-white text-xs lg:text-sm font-medium" href="#contact">
+            {t("hello6")}
           </Link>
         </div>
       </div>
