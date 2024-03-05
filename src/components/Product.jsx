@@ -15,7 +15,7 @@ function Product() {
           <h2 className="text-3xl font-medium py-6">ПРОДУКЦИИ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Fade bottom>
-              <div className="">
+              <div>
                 <Image
                   className="object-cover product-image"
                   src={ProductTwo}
@@ -23,7 +23,7 @@ function Product() {
                 />
                 <h4 className="text-xl font-medium my-4">СВАРНАЯ СЕТКА</h4>
               </div>
-              <div className="">
+              <div>
                 <Image
                   className="object-cover product-image"
                   src={ProductFive}
@@ -31,7 +31,7 @@ function Product() {
                 />
                 <h4 className="text-xl font-medium my-4">ДОРОЖНАЯ СЕТКА</h4>
               </div>
-              <div className="">
+              <div>
                 <Image
                   className="object-cover product-image"
                   src={ProductFour}
@@ -41,7 +41,7 @@ function Product() {
               </div>
             </Fade>
             <Fade bottom>
-              <div className="">
+              <div>
                 <Image
                   className="object-cover product-image"
                   src={ProductOne}
@@ -49,7 +49,7 @@ function Product() {
                 />
                 <h4 className="text-xl font-medium my-4">Еврозабор 3-D</h4>
               </div>
-              <div className="">
+              <div>
                 <Image
                   className="object-cover product-image"
                   src={ProductThree}
@@ -61,9 +61,6 @@ function Product() {
           </div>
         </div>
       </div>
-      {/* <video className="product-video" autoplay controls>
-        <source src={"/src/assets/video.mp4"} type="video/mp4" />
-      </video> */}
     </>
   );
 }

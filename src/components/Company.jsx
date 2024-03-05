@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+import ProductFour from "@/assets/product1.png";
+
 const Company = () => {
   return (
     <section className="company-section py-6 ">
@@ -26,11 +29,7 @@ const Company = () => {
               </p>
             </div>
             <div>
-              <img
-                className="rounded-lg"
-                src="http://alstar.uz/assets/ceo1-095f2e63.jpg"
-                alt=""
-              />
+              <Image className="rounded-lg" src={ProductFour} alt="ProductFour" />
             </div>
           </div>
         </div>
@@ -48,8 +47,8 @@ const Company = () => {
                 Based on the context and mission of the company, the management
                 and staff of OOO GOLDEN HAPPINESS sets the main goal in the
                 field of quality - ensuring and maintaining consumer confidence
-                in OOO GOLDEN HAPPINESS as a Company that comprehensively
-                meets the needs of consumers in the production of fire-resistant
+                in OOO GOLDEN HAPPINESS as a Company that comprehensively meets
+                the needs of consumers in the production of fire-resistant
                 aluminum composite panels. To achieve and implement this goal,
                 the company has identified the main strategic directions:
                 increasing the competitiveness of the company, increasing
@@ -70,16 +69,16 @@ const Company = () => {
             </div>
             <div className="bg-companyStrategyBg py-1 px-2 md:py-3 md:px-4 rounded-md">
               <p className="text-white text-xs md:text-base">
-                The company OOO GOLDEN HAPPINESS is one of the leading
-                companies in Uzbekistan engaged in the production of
-                fire-resistant aluminum composite panels. Having highly
-                qualified specialists and modern production and technological
-                equipment, the Company strives to expand its position in the
-                domestic and foreign markets by producing fire-resistant high
-                quality aluminum composite panels that meet the requirements of
-                consumers and stakeholders. The most efficient and balanced
-                supply of high-quality fire-resistant aluminum composite panels
-                in the territory of the Republic of Uzbekistan and neighboring
+                The company OOO GOLDEN HAPPINESS is one of the leading companies
+                in Uzbekistan engaged in the production of fire-resistant
+                aluminum composite panels. Having highly qualified specialists
+                and modern production and technological equipment, the Company
+                strives to expand its position in the domestic and foreign
+                markets by producing fire-resistant high quality aluminum
+                composite panels that meet the requirements of consumers and
+                stakeholders. The most efficient and balanced supply of
+                high-quality fire-resistant aluminum composite panels in the
+                territory of the Republic of Uzbekistan and neighboring
                 countries.
               </p>
             </div>

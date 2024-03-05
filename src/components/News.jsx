@@ -1,6 +1,12 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Fade } from "react-reveal";
+import ProductOne from "@/assets/product1.png";
+import ProductTwo from "@/assets/product2.png";
+import ProductThree from "@/assets/product3.JPG";
+import ProductFour from "@/assets/product4.JPG";
+
 const News = () => {
   return (
     <section className="news-section flex justify-center py-4  ">
@@ -10,9 +16,9 @@ const News = () => {
           <Fade bottom>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-6 mt-10">
               <div className="news-card w-full sm:w-auto">
-                <img
+                <Image
                   className="rounded-t-md"
-                  src="http://alstar.uz/assets/alstarpro-7683e32e.jpg"
+                  src={ProductOne}
                   alt="alstar pro image"
                 />
                 <div className="px-4 py-3">
@@ -31,9 +37,9 @@ const News = () => {
                 </div>
               </div>
               <div className="news-card">
-                <img
+                <Image
                   className="rounded-t-md card-image"
-                  src="http://alstar.uz/assets/shourum-37a273f4.jpg"
+                  src={ProductTwo}
                   alt="alstar pro image samarkand"
                 />
                 <div className="px-4 py-3">
@@ -53,9 +59,9 @@ const News = () => {
                 </div>
               </div>
               <div className="news-card">
-                <img
+                <Image
                   className="rounded-t-md card-image"
-                  src="http://alstar.uz/assets/news3-6d0226da.jpg"
+                  src={ProductThree}
                   alt="alstar pro image"
                 />
                 <div className="px-4 py-3">
@@ -75,9 +81,9 @@ const News = () => {
                 </div>
               </div>
               <div className="news-card">
-                <img
+                <Image
                   className="rounded-t-md card-image"
-                  src="https://alubond.com/wp-content/uploads/2022/11/inter.png"
+                  src={ProductFour}
                   alt="alstar pro image"
                 />
                 <div className="px-4 py-3">
