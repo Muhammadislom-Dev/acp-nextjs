@@ -12,13 +12,13 @@ const Footer = () => {
   return (
     <footer className="footer-section py-8">
       <div className="container">
-        <div className="footer__internal-div rounded-lg flex justify-between py-7 px-10">
+        <div className="footer__internal-div rounded-lg flex flex-wrap md:flex-nowrap justify-center gap-16 md:justify-between py-7 px-10">
           <ul className="text-white flex flex-col gap-4">
-            <li>{t("hello2")}</li>
-            <li>
+            <li className="text-center md:text-start">{t("hello2")}</li>
+            <li className=" flex justify-center md:justify-start">
               <Image src={Logo} className="footer-logo" alt="Logo image" />
             </li>
-            <li className="flex mt-8 gap-4 items-center">
+            <li className="flex mt-8 gap-4 items-center justify-center md:justify-start">
               <Link href={"#"}>
                 <InstargramSvg />
               </Link>
@@ -28,30 +28,30 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="text-white flex flex-col gap-4">
-            <li>{t("hello30")}</li>
-            <li>
+            <li className="text-center md:text-start">{t("hello30")}</li>
+            <li className="text-center md:text-start text-sm">
               <Link href={"#"}>{t("hello2")}</Link>
             </li>
-            <li>
+            <li className="text-center md:text-start text-sm">
               <Link href={"#"}>{t("hello4")}</Link>
             </li>
-            <li>
+            <li className="text-center md:text-start text-sm">
               <Link href={"#"}>{t("hello5")}</Link>
             </li>
-            <li>
+            <li className="text-center md:text-start text-sm">
               <Link href={"#"}>{t("hello6")}</Link>
             </li>
           </ul>
           <ul className="text-white flex flex-col gap-4">
-            <li>{t("hello6")}</li>
-            <li>«GOLDEN HAPPINESS»</li>
-            <li>
+            <li className="text-center md:text-start">{t("hello6")}</li>
+            <li className="text-center md:text-start text-sm">«GOLDEN HAPPINESS»</li>
+            <li className="text-center md:text-start text-sm">
               <Link href={"#"}>info@alstar.uz</Link>
             </li>
-            <li>
-              <Link href="tel:+998770074777">+998 77 007 47 77</Link>
+            <li className="text-center md:text-start text-sm">
+              <Link href="tel:+998770074777 ">+998 77 007 47 77</Link>
             </li>
-            <li>
+            <li className="text-center md:text-start text-sm" >
               <Link href="tel:+998990000031">+998 99 000 00 31</Link>
             </li>
           </ul>

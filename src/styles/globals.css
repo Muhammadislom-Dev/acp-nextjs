@@ -63,12 +63,14 @@ html {
 .language {
   z-index: 9999;
 }
+
 .partner-icon {
   object-fit: contain;
   width: 100%;
   height: 100%;
   transition: 0.3s all;
 }
+
 .partner-icon:hover {
   transform: scale(0.8);
 }
@@ -165,24 +167,34 @@ html {
   background-size: cover;
   background-image: url("http://alstar.uz/assets/dibond1-4a53fefb.jpg");
 }
+
 .contact {
   background-color: #202020;
   border-radius: 30px;
 }
 
+@media (max-width:785px) {
+  .hiddenMenu {
+    display: none;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar {
   height: 0px;
   width: 8px;
   border-radius: 54px;
 }
+
 ::-webkit-scrollbar-track {
   background: #fff;
   overflow-x: scroll;
   width: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #333 !important;
   border-radius: 54px;
