@@ -24,62 +24,30 @@ function Partner() {
           ziyod.
         </p>
         <Fade bottom>
-          <div className="grid grid-cols-4 gap-6 flex-col mt-4">
-            <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoOne}
-                alt="LogoIcon"
-              />
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 flex-col mt-4">
+            <div className="h-128 sm:p-0 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
+              <Image className="partner-icon" src={LogoOne} alt="LogoIcon" />
             </div>
             <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoTwo}
-                alt="LogoIcon"
-              />
+              <Image className="partner-icon" src={LogoTwo} alt="LogoIcon" />
             </div>
             <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoThree}
-                alt="LogoIcon"
-              />
+              <Image className="partner-icon" src={LogoThree} alt="LogoIcon" />
             </div>
             <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoFour}
-                alt="LogoIcon"
-              />
+              <Image className="partner-icon" src={LogoFour} alt="LogoIcon" />
             </div>
             <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoFive}
-                alt="LogoIcon"
-              />
+              <Image className="partner-icon" src={LogoFive} alt="LogoIcon" />
             </div>
             <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoSix}
-                alt="LogoIcon"
-              />
+              <Image className="partner-icon" src={LogoSix} alt="LogoIcon" />
             </div>
             <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoSeven}
-                alt="LogoIcon"
-              />
+              <Image className="partner-icon" src={LogoSeven} alt="LogoIcon" />
             </div>
             <div className="h-128 p-6 overflow-hidden shadow-lg bg-white rounded-lg mx-15 flex items-center justify-center cursor-pointer">
-              <Image
-                className="partner-icon"
-                src={LogoEight}
-                alt="LogoIcon"
-              />
+              <Image className="partner-icon" src={LogoEight} alt="LogoIcon" />
             </div>
           </div>
         </Fade>

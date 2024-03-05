@@ -27,9 +27,9 @@ function Contact() {
   return (
     <div id="contact" className="py-4 relative">
       <div className="container">
-        <div className="contact p-8 rounded-2vw mb-10vw p-3vw relative">
-          <div className="flex gap-8 justify-between">
-            <div className="flex px-12 gap-4 flex-col">
+        <div className="contact p-4 lg:p-8 rounded-2vw mb-10vw p-3vw relative">
+          <div className="flex gap-8 justify-between flex-wrap-reverse lg:flex-nowrap">
+            <div className="flex w-full  lg:px-12 gap-4 flex-col">
               <h2 className="text-white text-4xl mb-4">СВЯЗАТЬСЯ С НАМИ</h2>
               <label className="form-label" htmlFor="">
                 <p className="text-white">Ismingiz</p>

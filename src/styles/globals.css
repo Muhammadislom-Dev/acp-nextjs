@@ -92,7 +92,7 @@ html {
 }
 
 .header-img {
-  min-width: 450px;
+  min-height: 450px;
   height: 650px;
   width: 100%;
   position: absolute;
@@ -173,9 +173,21 @@ html {
   border-radius: 30px;
 }
 
-@media (max-width:785px) {
+@media (max-width: 785px) {
   .hiddenMenu {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-image {
+    position: inherit;
+  }
+  .header-img {
+    height: 550px;
+  }
+  .header {
+    height: 550px;
   }
 }
 
