@@ -21,18 +21,18 @@ const AboutUs = () => {
             <div>
               <div className="flex flex-col gap-3 pb-4">
                 <p className="text-stone-500 text-sm w-full max-w-[800px] sm:w-auto leading-6">
-                  ALSTAR - 'GOLDEN HAPPINESS' MChJga tegishli PE, FR-B1, FR-A2
+                  ALSTAR - GOLDEN HAPPINESS MChJga tegishli PE, FR-B1, FR-A2
                   turdagi alyumin kompozit panellar (ACP) brendi. 2013 yildan
                   beri kompaniya yiliga 2 million m2 ishlab chiqarish quvvatiga
                   ega Markaziy Osiyodagi eng yirik ACP brendiga aylandi.
-                  Kompaniya tarkibiga “ALSTAR, DIBOND, UZBOND, ALSTAR7” kabi
+                  Kompaniya tarkibiga ALSTAR, DIBOND, UZBOND, ALSTAR7 kabi
                   avtomat uzatmalar qutisi (ACP) mahsulotlari kiradi.
                 </p>
               </div>
               <button
                 onClick={handleClick}
                 className="rounded-3xl header-title bg-black text-white border-black border-2 px-8 py-2 text-sm font-medium hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
-                Batafsil ma'lumot
+                Batafsil malumot
               </button>
             </div>
           </Fade>

@@ -26,7 +26,7 @@ const News = () => {
                     ALSTAR 7 PRO
                   </h3>
                   <p className="text-sm py-2 mb-2">
-                    Do'stlar, bugun bizning birinchi va o'z sohasida yagona
+                    Dostlar, bugun bizning birinchi va oz sohasida yagona
                     ALSTAR 7 PRO onlayn jurnalimiz nashr etildi!
                   </p>
                   <Link
