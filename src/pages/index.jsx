@@ -9,7 +9,7 @@ import { Unbounded } from "next/font/google";
 import News from "@/components/News";
 import Contact from "@/components/Contact";
 import Partner from "@/components/Partner";
-import AboutUs from "@/components/AboutUs";
+import AboutUs from "@/components/About";
 
 
 const unbounded = Unbounded({ subsets: ["latin"] });
