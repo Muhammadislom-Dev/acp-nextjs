@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import ContactImage from "@/assets/contact.png";
 import Image from "next/image";
 import Button from "./Button";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const {t} = useTranslation()
   const [nameValue, setNameValue] = useState("");
   const [numberValue, setNumberValue] = useState("");
   const [textValue, setTextValue] = useState("");
@@ -32,32 +34,32 @@ function Contact() {
             <div className="flex w-full  lg:px-12 gap-4 flex-col">
               <h2 className="text-white text-4xl mb-4">СВЯЗАТЬСЯ С НАМИ</h2>
               <label className="form-label" htmlFor="">
-                <p className="text-white">Ismingiz</p>
+                <p className="text-white">{t("hello18")}</p>
                 <input
                   className="outline-none py-2 px-6 rounded-lg form-input mt-2 w-full"
                   type="text"
-                  placeholder="Ismingiz"
+                  placeholder={t("hello18")}
                   value={nameValue}
                   onChange={(e) => changeName(e.target.value)}
                 />
               </label>
               <label className="form-label" htmlFor="">
-                <p className="text-white">Telefon raqamingiz</p>
+                <p className="text-white">{t("hello19")}</p>
                 <input
                   type="tel"
                   value={numberValue}
                   onChange={(e) => changeNumber(e.target.value)}
                   className="outline-none py-2 px-6 rounded-lg form-input mt-2 w-full"
-                  placeholder="Telefon raqamingiz"
+                  placeholder={t("hello19")}
                 />
               </label>
               <label className="form-label" htmlFor="">
-                <p className="text-white">Xabaringiz</p>
+                <p className="text-white">{t("hello20")}</p>
                 <textarea
                   value={textValue}
                   onChange={(e) => changeText(e.target.value)}
                   className="outline-none py-2 px-6 rounded-lg form-input mt-2 w-full"
-                  placeholder="Xabaringiz"
+                  placeholder={t("hello20")}
                 />
               </label>
               <Button

@@ -1,8 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { toast } from "react-toastify";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
 function Button({ numberValue, nameValue, textValue, handleClear }) {
+  const {t} = useTranslation()
   let bot = {
     TOKEN: "7002617210:AAFKnKuXP6Z8rFB7FICnMJEpd-uJPBjp-aU",
     chatID: "-1002057999982",
@@ -41,7 +41,7 @@ function Button({ numberValue, nameValue, textValue, handleClear }) {
       type="submit"
       onClick={sendMessage}
       className="w-full text-black bg-white rounded-lg h-[50px] hover:bg-black hover:text-white transition-all duration-300 ease-in-out">
-      Yuborish
+       {t("hello21")}
     </button>
   );
 }

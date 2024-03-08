@@ -9,19 +9,19 @@ import LogoSix from "@/assets/logo6.png";
 import LogoSeven from "@/assets/logo7.png";
 import LogoEight from "@/assets/logo8.png";
 import { Fade } from "react-reveal";
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 function Partner() {
+  const { t } = useTranslation();
   return (
     <div className="py-8">
       <div className="container">
         <h2 className="text-black text-center text-2xl font-medium">
-          НАШИ КЛИЕНТЫ
+          {t("hello13")}
         </h2>
         <p className="text-sm text-center w-3/4 leading-6 m-auto mt-4">
-          Welded Mesh Grid- Yo`l setkalari va sim mix ishlab chiqarish bo`yicha
-          O`zbekistonda eng birinchilardan va liderlaridan hisoblanadi, doimiy
-          mijozlar 500 dan ziyod, bir oylik ishlab chiqarish 500/600 tonnadan
-          ziyod.
+          {t("partnerText")}
         </p>
         <Fade bottom>
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 flex-col mt-4">

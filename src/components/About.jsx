@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import ProductFour from "@/assets/product1.png";
 import Image from "next/image";
 import { Fade } from "react-reveal";
+import Link from "next/link";
 
 const AboutUs = () => {
   const router = useRouter();
@@ -29,11 +30,11 @@ const AboutUs = () => {
                   avtomat uzatmalar qutisi (ACP) mahsulotlari kiradi.
                 </p>
               </div>
-              <button
-                onClick={handleClick}
+              <Link
+                href="tel:+99899554466"
                 className="rounded-3xl header-title bg-black text-white border-black border-2 px-8 py-2 text-sm font-medium hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
-                Batafsil malumot
-              </button>
+                Bog'lanish
+              </Link>
             </div>
           </Fade>
           <Fade right>

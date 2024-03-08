@@ -6,13 +6,15 @@ import ProductOne from "@/assets/product1.png";
 import ProductTwo from "@/assets/product2.png";
 import ProductThree from "@/assets/product3.JPG";
 import ProductFour from "@/assets/product4.JPG";
+import { useTranslation } from "react-i18next";
 
 const News = () => {
+  const {t} = useTranslation()
   return (
     <section className="news-section flex justify-center py-4  ">
       <div className="container">
         <div>
-          <h2 className=" font-semibold text-3xl text-center">NEWS</h2>
+          <h2 className=" font-semibold text-3xl text-center">{t("hello4")}</h2>
           <Fade bottom>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-6 mt-10">
               <div className="news-card w-full sm:w-auto">
