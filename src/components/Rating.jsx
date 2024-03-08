@@ -17,7 +17,7 @@ const Rating = () => {
             onEnter={() => setCount(true)}
             onExit={() => setCount(false)}>
             <div className="flex items-center gap-4 mt-6 sm:gap-0 sm:justify-between flex-wrap sm:flex-nowrap justify-center">
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <p className="text-ratingNumColor text-4xl md:text-5xl  xl:text-6xl font-semibold">
                   {count && (
                     <CountUp
@@ -32,7 +32,7 @@ const Rating = () => {
                 </p>
                 <p className="text-lg text-ratingTitleColor">Brand</p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <p className="text-ratingNumColor text-4xl md:text-5xl  xl:text-6xl font-semibold">
                   {count && (
                     <CountUp
@@ -47,7 +47,7 @@ const Rating = () => {
                 </p>
                 <p className="text-lg text-ratingTitleColor">Employees</p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <p className="text-ratingNumColor text-4xl md:text-5xl  xl:text-6xl font-semibold">
                   {count && (
                     <CountUp
@@ -62,7 +62,7 @@ const Rating = () => {
                 </p>
                 <p className="text-lg text-ratingTitleColor">Clients</p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <p className="text-ratingNumColor text-4xl md:text-5xl  xl:text-6xl font-semibold">
                   {count && (
                     <CountUp

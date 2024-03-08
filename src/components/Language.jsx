@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import UzbekImage from "@/assets/uzbek.png";
 import RussianImage from "@/assets/russian.png";
 import EnglishImage from "@/assets/english.png";
+import TurkImage from '@/assets/turk.png'
 import Image from "next/image";
 
 function Language() {
@@ -66,6 +67,12 @@ function Language() {
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem">
               <Image className="h-6 w-6" src={EnglishImage} alt="English" />
+            </div>
+            <div
+              onClick={() => onChangeLanguage("tk")}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+              role="menuitem">
+              <Image className="h-6 w-6" src={TurkImage} alt="TurkImage" />
             </div>
           </div>
         </div>

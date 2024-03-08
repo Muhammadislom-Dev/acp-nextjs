@@ -10,6 +10,7 @@ import News from "@/components/News";
 import Contact from "@/components/Contact";
 import Partner from "@/components/Partner";
 import AboutUs from "@/components/About";
+import Gallery from "@/components/Gallery";
 
 
 const unbounded = Unbounded({ subsets: ["latin"] });
@@ -23,6 +24,7 @@ export default function Home() {
       <Product />
       <Rating />
       <Partner />
+      <Gallery />
       <News />
       <Contact />
       <Footer />

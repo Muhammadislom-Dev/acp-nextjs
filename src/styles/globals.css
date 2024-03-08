@@ -173,6 +173,11 @@ html {
   border-radius: 30px;
 }
 
+.gallery-image{
+  height:350px;
+  object-fit:cover;
+}
+
 @media (max-width: 785px) {
   .hiddenMenu {
     display: none;
@@ -188,6 +193,9 @@ html {
   }
   .header {
     height: 550px;
+  }
+  .gallery-image{
+    height:250px;
   }
 }
 
