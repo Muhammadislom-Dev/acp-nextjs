@@ -30,7 +30,7 @@ const Rating = () => {
                   )}
                   <span className="text-black text-4xl">+</span>
                 </p>
-                <p className="text-lg text-ratingTitleColor">Brand</p>
+                <p className="text-lg text-ratingTitleColor">{t("hello24")}</p>
               </div>
               <div className="flex flex-col items-center">
                 <p className="text-ratingNumColor text-4xl md:text-5xl  xl:text-6xl font-semibold">
@@ -45,7 +45,7 @@ const Rating = () => {
                   )}
                   <span className="text-black text-4xl">+</span>
                 </p>
-                <p className="text-lg text-ratingTitleColor">Employees</p>
+                <p className="text-lg text-ratingTitleColor">{t("hello26")}</p>
               </div>
               <div className="flex flex-col items-center">
                 <p className="text-ratingNumColor text-4xl md:text-5xl  xl:text-6xl font-semibold">
@@ -60,7 +60,7 @@ const Rating = () => {
                   )}
                   <span className="text-black text-4xl">+</span>
                 </p>
-                <p className="text-lg text-ratingTitleColor">Clients</p>
+                <p className="text-lg text-ratingTitleColor">{t("hello27")}</p>
               </div>
               <div className="flex flex-col items-center">
                 <p className="text-ratingNumColor text-4xl md:text-5xl  xl:text-6xl font-semibold">
@@ -75,7 +75,7 @@ const Rating = () => {
                   )}
                   <span className="text-black text-4xl">+</span>
                 </p>
-                <p className="text-lg text-ratingTitleColor">One month's production volume</p>
+                <p className="text-lg text-ratingTitleColor">{t("tonne")}</p>
               </div>
             </div>
           </ScrollTrigger>
