@@ -173,14 +173,21 @@ html {
   border-radius: 30px;
 }
 
-.gallery-image{
-  height:350px;
-  object-fit:cover;
+.gallery-image {
+  height: 350px;
+  object-fit: cover;
+}
+
+.navbar-menu-language {
+  display: none;
 }
 
 @media (max-width: 785px) {
   .hiddenMenu {
     display: none;
+  }
+  .navbar-menu-language {
+    display: block;
   }
 }
 
@@ -194,8 +201,8 @@ html {
   .header {
     height: 550px;
   }
-  .gallery-image{
-    height:250px;
+  .gallery-image {
+    height: 250px;
   }
 }
 

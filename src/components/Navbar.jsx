@@ -31,6 +31,9 @@ function Navbar() {
             {t("hello6")}
           </Link>
         </div>
+        <div className="navbar-menu-language">
+          <Language />
+        </div>
       </div>
     </div>
   );
