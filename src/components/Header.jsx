@@ -14,7 +14,7 @@ function Header() {
         <h2 className="text-white absolute top-[330px] md:top-[400px] text-base md:text-2xl header-title">
           {t("header1")}
         </h2>
-        <h1 className="text-white absolute top-[200px] md:top-[320px] header-title text-3xl md:text-5xl">
+        <h1 className="text-white absolute top-[200px] md:top-[320px] header-title text-2xl md:text-5xl">
           {t("header2")}
         </h1>
         <Link

@@ -44,14 +44,11 @@ const Footer = () => {
           </ul>
           <ul className="text-white flex flex-col gap-4">
             <li className="text-center md:text-start">{t("hello6")}</li>
-            <li className="text-center md:text-start text-sm">«ACP LLC</li>
-            <li className="text-center md:text-start text-sm">
-              <Link href={"#"}>info@alstar.uz</Link>
-            </li>
+            <li className="text-center md:text-start text-sm">ACP LLC</li>
             <li className="text-center md:text-start text-sm">
               <Link href="tel:+998770074777 ">+998 77 007 47 77</Link>
             </li>
-            <li className="text-center md:text-start text-sm" >
+            <li className="text-center md:text-start text-sm">
               <Link href="tel:+998990000031">+998 99 000 00 31</Link>
             </li>
           </ul>
