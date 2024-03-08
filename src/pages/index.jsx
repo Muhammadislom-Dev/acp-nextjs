@@ -25,7 +25,7 @@ export default function Home() {
       <Rating />
       <Partner />
       <Gallery />
-      <News />
+      {/* <News /> */}
       <Contact />
       <Footer />
       <ReplainWidget />
