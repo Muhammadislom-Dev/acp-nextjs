@@ -1,6 +1,7 @@
 import uz from "./uz.json";
 import ru from "./ru.json";
 import en from "./en.json";
+import tk from './tk.json'
 
 export const resorce = {
   uz: {
@@ -12,4 +13,7 @@ export const resorce = {
   en: {
     translation: en,
   },
+  tk:{
+    translation:tk,
+  }
 };
