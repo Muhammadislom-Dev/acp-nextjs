@@ -46,7 +46,7 @@ function Product() {
                   alt="ProductOne"
                 />
                 <h4 className="text-base font-medium my-4">
-                  Проволока вязальная
+                  Стальная проволока
                 </h4>
               </div>
             </Fade>
@@ -58,17 +58,7 @@ function Product() {
                   alt="ProductOne"
                 />
                 <h4 className="text-base font-medium my-4">
-                  Стальная проволока
-                </h4>
-              </div>
-              <div>
-                <Image
-                  className="object-cover product-image"
-                  src={ProductFive}
-                  alt="ProductOne"
-                />
-                <h4 className="text-base font-medium my-4">
-                  Полиграфическая проволока{" "}
+                  Проволока вязальная
                 </h4>
               </div>
               <div>
