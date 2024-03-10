@@ -1,6 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
-
 export default function Document() {
   return (
     <Html lang="en">
@@ -11,7 +10,23 @@ export default function Document() {
         href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700&display=swap"
         rel="stylesheet"
       />
-      <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet"></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap"
+        rel="stylesheet"></link>
+
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-ME5XLQHTZH"></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ME5XLQHTZH');
+          `,
+        }}
+      />
       <body>
         <Main />
         <NextScript />
