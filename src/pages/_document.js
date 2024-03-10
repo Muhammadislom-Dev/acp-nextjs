@@ -16,14 +16,14 @@ export default function Document() {
 
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-ME5XLQHTZH"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=G-HDCZR569H1"></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-ME5XLQHTZH');
+          gtag('config', 'G-HDCZR569H1');
           `,
         }}
       />
