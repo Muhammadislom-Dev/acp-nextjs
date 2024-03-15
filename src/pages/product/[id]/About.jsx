@@ -59,7 +59,7 @@ const AboutUs = () => {
   return (
     <section className="about-section">
       <div className="container">
-        <div className="flex gap-12 w-full justify-between items-center lg:flex-nowrap">
+        <div className="flex gap-12 w-full justify-between items-center flex-wrap-reverse lg:flex-nowrap">
           <Fade left>
             <div>
               <div className="flex flex-col gap-3 pb-4">
@@ -76,7 +76,7 @@ const AboutUs = () => {
             </div>
           </Fade>
           <Fade right>
-            <div className="w-[55%]">
+            <div className="lg:w-[55%]">
               <Image src={data?.image} className="product-about-image" alt="" />
             </div>
           </Fade>
