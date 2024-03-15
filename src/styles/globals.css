@@ -144,6 +144,11 @@ html {
   background-color: rgba(113, 150, 241, 0.25);
 }
 
+.product-video {
+  width: 100% !important;
+  height:500px !important;
+}
+
 .card-image {
   height: 213.38px;
   width: 100%;
@@ -209,6 +214,10 @@ html {
   }
   .gallery-image {
     height: 250px;
+  }
+
+  .product-video{
+    height: 300px !important;
   }
 }
 

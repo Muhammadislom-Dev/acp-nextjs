@@ -3,13 +3,13 @@ import ProductOne from "@/assets/sim11.jpg";
 import ProductTwo from "@/assets/product6.jpg";
 import ProductThree from "@/assets/sim3.jpg";
 import ProductFour from "@/assets/sim4.png";
-import ProductFive from "@/assets/sim5.jpg";
 import ProductSix from "@/assets/sim6.jpg";
 import ProductSeven from "@/assets/sim7.jpg";
 import Image from "next/image";
 import { Fade } from "react-reveal";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
+import ReactPlayer from "react-player";
 
 function Product() {
   const { t } = useTranslation();
@@ -18,7 +18,7 @@ function Product() {
       <div id="product" className="py-8">
         <div className="container">
           <h2 className="text-3xl font-medium py-6">{t("hello3")}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             <Fade bottom>
               <div className="flex flex-col items-center">
                 <Image
@@ -118,6 +118,14 @@ function Product() {
               </div>
             </Fade>
           </div>
+        </div>
+        <div className="container mt-[25px]">
+          <ReactPlayer
+            url={
+              "https://www.youtube.com/watch?v=VQw-MNixX-Y"
+            }
+            className="product-video"
+          />
         </div>
       </div>
     </>
