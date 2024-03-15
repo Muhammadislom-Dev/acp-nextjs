@@ -147,6 +147,7 @@ html {
 .card-image {
   height: 213.38px;
   width: 100%;
+  object-fit: cover;
 }
 
 .company-ceo {
