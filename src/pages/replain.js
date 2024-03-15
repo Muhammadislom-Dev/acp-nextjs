@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const ReplainWidget = () => {
   useEffect(() => {
-    window.replainSettings = { id: "840bd182-0d19-4c58-b49d-d4bacf447257" };
+    window.replainSettings = { id: "9a0cd693-626d-41a7-9b78-c5748a366b69" };
     (function (u) {
       var s = document.createElement("script");
       s.async = true;
