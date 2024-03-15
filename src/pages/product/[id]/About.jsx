@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 import ProductOne from "@/assets/sim11.jpg";
-import ProductTwo from "@/assets/sim2.jpg";
+import ProductTwo from "@/assets/product6.jpg";
 import ProductThree from "@/assets/sim3.jpg";
 import ProductFour from "@/assets/sim4.png";
 import ProductSix from "@/assets/sim6.jpg";

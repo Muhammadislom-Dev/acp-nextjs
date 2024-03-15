@@ -19,10 +19,10 @@ const Footer = () => {
               <Image src={Logo} className="footer-logo" alt="Logo image" />
             </li>
             <li className="flex mt-8 gap-4 items-center justify-center md:justify-start">
-              <Link href={"#"}>
+              <Link href={"https://www.instagram.com/acp.uz/"}>
                 <InstargramSvg />
               </Link>
-              <Link href={"#"}>
+              <Link href={"https://t.me/Abror_acp"}>
                 <TelegramSvg />
               </Link>
             </li>

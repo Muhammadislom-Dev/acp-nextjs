@@ -1,6 +1,6 @@
 import React from "react";
 import ProductOne from "@/assets/sim11.jpg";
-import ProductTwo from "@/assets/sim2.jpg";
+import ProductTwo from "@/assets/product6.jpg";
 import ProductThree from "@/assets/sim3.jpg";
 import ProductFour from "@/assets/sim4.png";
 import ProductFive from "@/assets/sim5.jpg";
@@ -29,7 +29,12 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Оцинкованная проволока
                 </h4>
-                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/1'>{t('Batafsil')}</Link>
+                <Link
+                  className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white"
+                  href="/product/1"
+                >
+                  {t("Batafsil")}
+                </Link>
               </div>
               <div className="flex flex-col items-center">
                 <Image
@@ -37,10 +42,13 @@ function Product() {
                   src={ProductTwo}
                   alt="ProductOne"
                 />
-                <h4 className="text-base font-medium my-4">
-                  Сетка сварная в рулонах
-                </h4>
-                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/2'>{t('Batafsil')}</Link>
+                <h4 className="text-base font-medium my-4">Сетка дорожная</h4>
+                <Link
+                  className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white"
+                  href="/product/2"
+                >
+                  {t("Batafsil")}
+                </Link>
               </div>
               <div className="flex flex-col items-center">
                 <Image
@@ -51,7 +59,12 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Стальная проволока
                 </h4>
-                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/3'>{t('Batafsil')}</Link>
+                <Link
+                  className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white"
+                  href="/product/3"
+                >
+                  {t("Batafsil")}
+                </Link>
               </div>
             </Fade>
             <Fade bottom>
@@ -64,7 +77,12 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Проволока вязальная
                 </h4>
-                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/4'>{t('Batafsil')}</Link>
+                <Link
+                  className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white"
+                  href="/product/4"
+                >
+                  {t("Batafsil")}
+                </Link>
               </div>
               <div className="flex flex-col items-center">
                 <Image
@@ -75,7 +93,12 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Сетка рабица неоцинкованная{" "}
                 </h4>
-                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/5'>{t('Batafsil')}</Link>
+                <Link
+                  className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white"
+                  href="/product/5"
+                >
+                  {t("Batafsil")}
+                </Link>
               </div>
               <div className="flex flex-col items-center">
                 <Image
@@ -86,7 +109,12 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Оцинкованная сетка-рабица{" "}
                 </h4>
-                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/6'>{t('Batafsil')}</Link>
+                <Link
+                  className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white"
+                  href="/product/6"
+                >
+                  {t("Batafsil")}
+                </Link>
               </div>
             </Fade>
           </div>
