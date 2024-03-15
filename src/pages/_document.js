@@ -13,7 +13,6 @@ export default function Document() {
       <link
         href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap"
         rel="stylesheet"></link>
-
       <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-HDCZR569H1"></script>

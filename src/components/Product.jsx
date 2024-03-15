@@ -9,6 +9,7 @@ import ProductSeven from "@/assets/sim7.jpg";
 import Image from "next/image";
 import { Fade } from "react-reveal";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 function Product() {
   const { t } = useTranslation();
@@ -19,7 +20,7 @@ function Product() {
           <h2 className="text-3xl font-medium py-6">{t("hello3")}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Fade bottom>
-              <div>
+              <div className="flex flex-col items-center">
                 <Image
                   className="object-cover product-image"
                   src={ProductOne}
@@ -28,8 +29,9 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Оцинкованная проволока
                 </h4>
+                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/1'>{t('Batafsil')}</Link>
               </div>
-              <div>
+              <div className="flex flex-col items-center">
                 <Image
                   className="object-cover product-image"
                   src={ProductTwo}
@@ -38,8 +40,9 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Сетка сварная в рулонах
                 </h4>
+                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/2'>{t('Batafsil')}</Link>
               </div>
-              <div>
+              <div className="flex flex-col items-center">
                 <Image
                   className="object-cover product-image"
                   src={ProductThree}
@@ -48,10 +51,11 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Стальная проволока
                 </h4>
+                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/3'>{t('Batafsil')}</Link>
               </div>
             </Fade>
             <Fade bottom>
-              <div>
+              <div className="flex flex-col items-center">
                 <Image
                   className="object-cover product-image"
                   src={ProductFour}
@@ -60,8 +64,9 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Проволока вязальная
                 </h4>
+                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/4'>{t('Batafsil')}</Link>
               </div>
-              <div>
+              <div className="flex flex-col items-center">
                 <Image
                   className="object-cover product-image"
                   src={ProductSix}
@@ -70,8 +75,9 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Сетка рабица неоцинкованная{" "}
                 </h4>
+                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/5'>{t('Batafsil')}</Link>
               </div>
-              <div>
+              <div className="flex flex-col items-center">
                 <Image
                   className="object-cover product-image"
                   src={ProductSeven}
@@ -80,6 +86,7 @@ function Product() {
                 <h4 className="text-base font-medium my-4">
                   Оцинкованная сетка-рабица{" "}
                 </h4>
+                <Link className="bg-black w-[70%] flex items-center justify-center py-[8px] text-white" href='/product/6'>{t('Batafsil')}</Link>
               </div>
             </Fade>
           </div>
